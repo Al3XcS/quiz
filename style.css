@@ -1,0 +1,28 @@
+.parinte {
+    border: 2px green dotted;
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    background: red;
+    width: 60px;
+    height: 60px;
+}
+
+#doi {
+    top: 20px;
+    left: 15px;
+    background: teal;
+    position: relative;
+}
+
+
+@media screen and (max-width: 800px) {
+    .box {
+        display: inline-flexbox;
+        background: yellow;
+        width: 60%;
+        height: 80px;
+    }
+  }
